@@ -49,6 +49,7 @@
         <jacoco.utReport>${project.build.directory}/jacoco.exec</jacoco.utReport>
         <jacoco.utAgentConfig>-javaagent:${jacoco.path}=destfile=${jacoco.utReport}</jacoco.utAgentConfig>
         <jacoco-listeners.version>3.5</jacoco-listeners.version>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
 
     </properties>
 
